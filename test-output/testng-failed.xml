@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Youtube]" guice-stage="DEVELOPMENT">
+  <parameter name="browser" value="Chrome"/>
+  <test thread-count="5" name="Login_Signup_SubscribeChannel(failed)">
+    <classes>
+      <class name="youtube.Test.Test">
+        <methods>
+          <include name="SignupTest"/>
+          <include name="launch"/>
+          <include name="quit"/>
+        </methods>
+      </class> <!-- youtube.Test.Test -->
+    </classes>
+  </test> <!-- Login_Signup_SubscribeChannel(failed) -->
+</suite> <!-- Failed suite [Youtube] -->
